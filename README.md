@@ -1,2 +1,2 @@
 # qtree-samples
-sample repository
+sample repository, edwin lucke
