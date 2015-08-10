@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qtree.Lib", "ClassLibrary1\Qtree.Lib.csproj", "{27BF5D72-7781-472E-9DCC-D7B3EECFB719}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Qtree.Sample.Hub", "Qtree.Sample.Hub", "{6DD4A42F-AC58-4C87-B9B7-D20B46166918}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Qtree.Sample.Hub.Shared", "Qtree.Sample.Hub\Qtree.Sample.Hub.Shared\Qtree.Sample.Hub.Shared.shproj", "{49D8C614-4CC6-4554-B173-06069622D132}"
@@ -12,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qtree.Sample.Hub.Windows", "Qtree.Sample.Hub\Qtree.Sample.Hub.Windows\Qtree.Sample.Hub.Windows.csproj", "{B14960B7-4C1F-48D0-98D7-FA4DDCFE25D3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qtree.Sample.Hub.WindowsPhone", "Qtree.Sample.Hub\Qtree.Sample.Hub.WindowsPhone\Qtree.Sample.Hub.WindowsPhone.csproj", "{A6AF958C-8ECF-42F8-9085-F88FDDC7DACF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qtree.Lib", "Qtree.Sample.Hub\Qtree.Lib\Qtree.Lib.csproj", "{27BF5D72-7781-472E-9DCC-D7B3EECFB719}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -30,22 +30,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Debug|ARM.Build.0 = Debug|Any CPU
-		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Debug|x64.Build.0 = Debug|Any CPU
-		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Debug|x86.Build.0 = Debug|Any CPU
-		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Release|Any CPU.Build.0 = Release|Any CPU
-		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Release|ARM.ActiveCfg = Release|Any CPU
-		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Release|ARM.Build.0 = Release|Any CPU
-		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Release|x64.ActiveCfg = Release|Any CPU
-		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Release|x64.Build.0 = Release|Any CPU
-		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Release|x86.ActiveCfg = Release|Any CPU
-		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Release|x86.Build.0 = Release|Any CPU
 		{B14960B7-4C1F-48D0-98D7-FA4DDCFE25D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B14960B7-4C1F-48D0-98D7-FA4DDCFE25D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B14960B7-4C1F-48D0-98D7-FA4DDCFE25D3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
@@ -94,6 +78,22 @@ Global
 		{A6AF958C-8ECF-42F8-9085-F88FDDC7DACF}.Release|x86.ActiveCfg = Release|x86
 		{A6AF958C-8ECF-42F8-9085-F88FDDC7DACF}.Release|x86.Build.0 = Release|x86
 		{A6AF958C-8ECF-42F8-9085-F88FDDC7DACF}.Release|x86.Deploy.0 = Release|x86
+		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Debug|ARM.Build.0 = Debug|Any CPU
+		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Debug|x64.Build.0 = Debug|Any CPU
+		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Debug|x86.Build.0 = Debug|Any CPU
+		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Release|ARM.ActiveCfg = Release|Any CPU
+		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Release|ARM.Build.0 = Release|Any CPU
+		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Release|x64.ActiveCfg = Release|Any CPU
+		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Release|x64.Build.0 = Release|Any CPU
+		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Release|x86.ActiveCfg = Release|Any CPU
+		{27BF5D72-7781-472E-9DCC-D7B3EECFB719}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
